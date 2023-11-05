@@ -1,0 +1,51 @@
+.AbouteLayout {
+    display: flex;
+    gap: 163px;
+    margin-top: 300px;
+}
+
+.Header {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight:500;
+    line-height: normal;
+}
+
+.Detail {
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140.523%;
+}
+
+.MeetTeamBtn {
+    display: inline-flex;
+    padding: 18px 26px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 29.5px;
+    border: 2px solid #9747FF;
+    width: 182px;
+    height: 58px;
+    color: #9747FF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140.523%;
+    /* 22.484px */
+    text-transform: uppercase;
+    background-color: white;
+}
+
+.ProfileImage {
+    width: 530px;
+    height: 474px;
+    flex-shrink: 0;
+    background: #FEDEFF;
+}
