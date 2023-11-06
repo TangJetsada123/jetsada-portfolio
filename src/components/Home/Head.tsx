@@ -23,31 +23,9 @@ function Head() {
             <div>
                 <div className={styles.HeaderTextLayout}>
                     <div style={{ display: 'flex', flexDirection: 'row', gap: '80px' }}>
-                        <div>
+                        <div className={styles.TextHeader}>
                             <h1 className={styles.HeaderTextSmall}>Hello people !</h1>
-                            <h1 className={styles.HeaderTextLarge}>We’re creative <br /> digital studio.</h1>
-                        </div>
-                        <div className={styles.circle}>
-                            <div className={styles.logo}></div>
-                            <div className={styles.text}>
-                                <p>
-                                    {text.map((char, i) => (
-                                        <span
-                                            key={i}
-                                            style={{
-                                                position: "absolute",
-                                                left: "50%",
-                                                fontSize: "1.2em",
-                                                transformOrigin: `0 ${radius}`,
-                                                transform: `rotate(${i * 5.8}deg)`,
-                                            }}
-                                        >
-                                            {char}
-                                        </span>
-                                    ))}
-                                </p>
-                            </div>
-
+                            <h1 className={styles.animateCharacter}>I'm full stack <br /> software developer.</h1>
                         </div>
                     </div>
                     <div className={styles.HeadSocialLayout}>
